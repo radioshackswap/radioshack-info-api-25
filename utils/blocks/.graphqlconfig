@@ -1,0 +1,15 @@
+{
+  "name": "Cronos Blocks",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Ethereum Blocks": {
+        "url": "http://ec2-44-202-219-222.compute-1.amazonaws.com:8000/subgraphs/name/radioshackcreator/blocks-cronos",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
